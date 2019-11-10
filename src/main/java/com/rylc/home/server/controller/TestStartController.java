@@ -18,7 +18,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/v1/readData")
+@RequestMapping("/v1/realData")
 public class TestStartController {
     private static final int UNKNOWN_ERR_RET_CODE = -1;
     private static final int SUCCESS_RET_CODE = 0;
